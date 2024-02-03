@@ -219,8 +219,8 @@ drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
   ```
 * Main pages on these subdomains were inaccessible, so I added the subdomains to `/etc/hosts`
 
- ```
-  - echo "admin.egypt.thm" >> /etc/hosts
-  - echo "wordpress.egypt.thm" >> /etc/hosts
-  - echo "gift.egypt.thm" >> /etc/hosts
- ```
+  ```
+  echo "admin.egypt.thm" >> /etc/hosts
+  echo "wordpress.egypt.thm" >> /etc/hosts
+  echo "gift.egypt.thm" >> /etc/hosts
+  ```
