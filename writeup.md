@@ -9,3 +9,5 @@ Deploy the machine and connect to our network.
 ```
 No answer neeeded
 ```
+
+# Task 2 - Find all the flags:
