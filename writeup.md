@@ -205,3 +205,18 @@ drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
   ===============================================================
   ```
 * After scanning all these directory I did not find any thing important. All directory have (.html) empty file
+##
+### Subdomain Listing
+* Using ffuf tool, I found three subdomains for the webpage.
+  
+  ```
+  ffuf -w /usr/share/seclists/Discovery/DNS/bitquark-subdomains-top100000.txt -H "Host: FUZZ.egypt.thm" -u http://<machine-ip> -fw <number-of-words>
+  ```
+  ```
+    ________________________________________________
+  
+   admin                   [Status: 200, Size: 800, Words: 69, Lines: 25, Duration: 3ms]
+   wordpress               [Status: 200, Size: 25403, Words: 1183, Lines: 328, Duration: 113ms]
+   gift                    [Status: 200, Size: 419, Words: 50, Lines: 15, Duration: 5ms]
+   :: Progress: [100000/100000] :: Job [1/1] :: 4651 req/sec :: Duration: [0:00:08] :: Errors: 0 ::
+  ```
