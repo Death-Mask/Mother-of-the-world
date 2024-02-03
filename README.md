@@ -12,7 +12,7 @@
 
 Before you begin, ensure you have met the following requirements:
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+* To deploy the Mother of the world virtual machine, you will first need to connect to our network.
 
 
 ## Let's solve with us
