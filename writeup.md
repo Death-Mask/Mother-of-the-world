@@ -83,8 +83,8 @@ PORT     STATE SERVICE VERSION
 ```
 ##
 ### Web Application Enumeration
-Going to the webpage using the given IP address redirects to egypt.thm domain, but fails to open a website.
-Adding the given IP address as egypt.thm to the /etc/hosts file and reloading a page fixes the error.
+* Going to the webpage using the given IP address redirects to egypt.thm domain, but fails to open a website.
+* Adding the given IP address as egypt.thm to the /etc/hosts file and reloading a page fixes the error.
 ```
 80/tcp   open  http    nginx 1.18.0 (Ubuntu)
 | http-methods: 
