@@ -3,7 +3,7 @@ mother of the world is a fully responsive tourism website template, responsive f
 
 ## Demo
 
-![mother of the world Desktop Demo](./website-demo-image/desktop.jpg "Desktop Demo")
+![mother of the world Desktop Demo](./website-demo-image/MOTW_CTF.png "Desktop Demo")
 
 ## Prerequisites
 
