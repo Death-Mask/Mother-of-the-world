@@ -81,6 +81,7 @@ PORT     STATE SERVICE VERSION
 |   Salt: L&wHAL9xsZF1auKR>|w`
 |_  Auth Plugin Name: mysql_native_password
 ```
+##
 ### Web Application Enumeration
 Going to the webpage using the given IP address redirects to egypt.thm domain, but fails to open a website.
 ```
