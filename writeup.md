@@ -1,4 +1,4 @@
-## I encourage everyone to try completing the tasks without any help. Only use this sheet if you're stuck.
+## I Encourage Everyone To Try Completing The Tasks Without Any Help. Only Use This Sheet If You're Stuck.
 
 ## Table of content
 - [Task 1  Introduction](#task-1---Introduction)
