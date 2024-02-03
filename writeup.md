@@ -90,7 +90,7 @@ PORT     STATE SERVICE VERSION
   | http-methods: 
   |_  Supported Methods: GET HEAD POST OPTIONS
   |_http-server-header: nginx/1.18.0 (Ubuntu)
-  |_http-title: Did not follow redirect to http://egypt.thm/     <<==============@@{0000}@@@
+  |_http-title: Did not follow redirect to http://egypt.thm/      <<<------------
   ```
   
 * Adding the given IP address as egypt.thm to the /etc/hosts file and reloading a page fixes the error.
