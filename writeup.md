@@ -213,8 +213,6 @@ drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
   ffuf -w /usr/share/seclists/Discovery/DNS/bitquark-subdomains-top100000.txt -H "Host: FUZZ.egypt.thm" -u http://<machine-ip> -fw <number-of-words>
   ```
   ```
-    ________________________________________________
-  
    admin                   [Status: 200, Size: 800, Words: 69, Lines: 25, Duration: 3ms]
    wordpress               [Status: 200, Size: 25403, Words: 1183, Lines: 328, Duration: 113ms]
    gift                    [Status: 200, Size: 419, Words: 50, Lines: 15, Duration: 5ms]
