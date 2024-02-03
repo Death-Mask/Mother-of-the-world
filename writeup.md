@@ -84,6 +84,7 @@ PORT     STATE SERVICE VERSION
 ##
 ### Web Application Enumeration
 * Going to the webpage using the given IP address redirects to egypt.thm domain, but fails to open a website.
+  
   ```
   80/tcp   open  http    nginx 1.18.0 (Ubuntu)
   | http-methods: 
@@ -91,4 +92,9 @@ PORT     STATE SERVICE VERSION
   |_http-server-header: nginx/1.18.0 (Ubuntu)
   |_http-title: Did not follow redirect to http://egypt.thm/
   ```
+  
 * Adding the given IP address as egypt.thm to the /etc/hosts file and reloading a page fixes the error.
+  
+  ```
+  echo "<machine-ip>   egypt.thm" >> /etc/hosts
+  ```
