@@ -81,4 +81,12 @@ PORT     STATE SERVICE VERSION
 |   Salt: L&wHAL9xsZF1auKR>|w`
 |_  Auth Plugin Name: mysql_native_password
 ```
-
+### Web Application Enumeration
+Going to the webpage using the given IP address redirects to egypt.thm domain, but fails to open a website.
+```
+80/tcp   open  http    nginx 1.18.0 (Ubuntu)
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: nginx/1.18.0 (Ubuntu)
+|_http-title: Did not follow redirect to http://egypt.thm/
+```
