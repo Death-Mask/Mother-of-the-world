@@ -25,7 +25,8 @@
 ![Rss](https://custom-icon-badges.herokuapp.com/badge/Writeup-yellow?style=for-the-badge&logo=writeup&logoColor=white)
 
 
-## Contact
+## 
+### Contact
 
 <p align="left">
   <a href="https://deathmask.rf.gd" target="_blank"><img src="https://custom-icon-badges.herokuapp.com/badge/Website-white?style=for-the-badge&logo=earth_9647256&logoColor=black%22%20style=%22border-radius:%2030px%22%20target=%22_blank"></a>
@@ -35,6 +36,7 @@
 </p>
 
 
-## License
+##
+### License
 
-MIT
+This program has been licensed under the MIT License. If you are a true FOSS (Free And Open Source Software) Lover, you wont customize this and redistribute this under your name
