@@ -16,7 +16,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## Let's solve with us
 
-<a href="" target="_blank"><img src="https://custom-icon-badges.herokuapp.com/badge/Writeup-red?logo=writeup&logoColor=black%22%20style=%22border-radius:%2030px%22%20target=%22_blank"></a>
+<a href="" target="_blank"><img src="https://custom-icon-badges.herokuapp.com/badge/Writeup-yellow?logo=writeup&logoColor=black%22%20style=%22border-radius:%2050px%22%20target=%22_blank"></a>
 
 
 ## Contact
