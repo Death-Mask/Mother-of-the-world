@@ -11,22 +11,6 @@ Before you begin, ensure you have met the following requirements:
 
 * [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
 
-## Installing mother of the world
-
-To install **mother of the world**, follow these steps:
-
-Linux and macOS:
-
-```bash
-sudo git clone https://github.com/Death-Mask/mother-of-the-world.git
-```
-
-Windows:
-
-```bash
-git clone https://github.com/Death-Mask/mother-of-the-world.git
-```
-
 ## Contact
 
 <p align="left">
