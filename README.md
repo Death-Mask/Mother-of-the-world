@@ -15,7 +15,7 @@ Before you begin, ensure you have met the following requirements:
 * To deploy the Mother of the world virtual machine, you will first need to connect to TryHackMe network.
 
 
-## Let's solve with us
+## Writeu
 
 ![Rss](https://custom-icon-badges.herokuapp.com/badge/Writeup-yellow?style=for-the-badge&logo=writeup&logoColor=white)
 
