@@ -224,3 +224,5 @@ drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
   echo "wordpress.egypt.thm" >> /etc/hosts
   echo "gift.egypt.thm" >> /etc/hosts
   ```
+##
+### Subdomain Enumeration
