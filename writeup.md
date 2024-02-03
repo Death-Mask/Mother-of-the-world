@@ -13,7 +13,7 @@ No answer neeeded
 # Task 2  - Find all the flags:
 
 ### Port Scan
-* It identified ports '21,22,80,111,2049 and 3306' as open. Running a more detailed scan on found open ports with `nmap` reveals their respective versions.
+* It identified ports `21,22,80,111,2049 and 3306` as open. Running a more detailed scan on found open ports with `nmap` reveals their respective versions.
   ```
   nmap -p- -sS -sV -sC -A -O -T5 <machine-ip> -v 
   ```
@@ -100,7 +100,7 @@ drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
   
 ##
 ### Web Application Enumeration
-* Going to the webpage using the given IP address redirects to 'egypt.thm' domain, but fails to open a website.
+* Going to the webpage using the given IP address redirects to `egypt.thm` domain, but fails to open a website.
   
   ```
   80/tcp   open  http    nginx 1.18.0 (Ubuntu)
@@ -110,7 +110,7 @@ drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
   |_http-title: Did not follow redirect to http://egypt.thm/      <<<------------
   ```
   
-* Adding the given IP address as 'egypt.thm' to the '/etc/hosts' file and reloading a page fixes the error.
+* Adding the given IP address as `egypt.thm` to the `/etc/hosts` file and reloading a page fixes the error.
   
   ```
   echo "<machine-ip>   egypt.thm" >> /etc/hosts
@@ -118,7 +118,7 @@ drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
 
 ##
 ### Directory Enumeration
-* Using 'gobuster' tool I was able to find directories on the 'nginx' server.
+* Using `gobuster` tool I was able to find directories on the `nginx` server.
   
   ```
    gobuster dir -u <machine-ip> -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -e --no-error -t 30
@@ -204,10 +204,10 @@ drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
   Finished
   ===============================================================
   ```
-* After scanning all these directory I did not find any thing important. All directory have '.html' empty file
+* After scanning all these directory I did not find any thing important. All directory have `.html` empty file
 ##
 ### Subdomain Listing
-* Using 'ffuf' tool, I found three subdomains for the webpage.
+* Using `ffuf` tool, I found three subdomains for the webpage.
   
   ```
   ffuf -w /usr/share/seclists/Discovery/DNS/bitquark-subdomains-top100000.txt -H "Host: FUZZ.egypt.thm" -u http://<machine-ip> -fw <number-of-words>
@@ -217,4 +217,4 @@ drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
    wordpress               [Status: 200, Size: 25403, Words: 1183, Lines: 328, Duration: 113ms]
    gift                    [Status: 200, Size: 419, Words: 50, Lines: 15, Duration: 5ms]
   ```
-* Main pages on these subdomains were inaccessible, so I added the subdomains to '/etc/hosts'
+* Main pages on these subdomains were inaccessible, so I added the subdomains to `/etc/hosts`
