@@ -82,6 +82,21 @@ PORT     STATE SERVICE VERSION
 |_  Auth Plugin Name: mysql_native_password
 ```
 ##
+### FTP
+```
+ftp <machine-ip>
+```
+```
+username: You will get it by nmap scanning
+password: Same username
+```
+```
+drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 .
+drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
+-rw-r--r--    1 65534    65534         934 Jan 23 23:26 user_passwd.txt
+```
+* No thing important in this file
+##
 ### Web Application Enumeration
 * Going to the webpage using the given IP address redirects to egypt.thm domain, but fails to open a website.
   
