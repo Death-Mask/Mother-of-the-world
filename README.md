@@ -1,4 +1,4 @@
-# mother of the world -  TryHackMe CTF Machine
+# Mother of the world -  TryHackMe CTF Machine
 * "Mother of the World" is a title that historically refers to Egypt. This title reflects the immense historical, cultural, and geopolitical significance that Egypt held throughout ancient times and into the present day.
 * Step into the shoes of a red teamer in our simulated hack challenge! 
 
