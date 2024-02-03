@@ -218,3 +218,9 @@ drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
    gift                    [Status: 200, Size: 419, Words: 50, Lines: 15, Duration: 5ms]
   ```
 * Main pages on these subdomains were inaccessible, so I added the subdomains to `/etc/hosts`
+
+ ```
+  - echo "admin.egypt.thm" >> /etc/hosts
+  - echo "wordpress.egypt.thm" >> /etc/hosts
+  - echo "gift.egypt.thm" >> /etc/hosts
+ ```
