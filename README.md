@@ -16,7 +16,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## Let's solve with us
 
-<a href="https://deathmask.rf.gd" target="_blank"><img src="https://custom-icon-badges.herokuapp.com/badge/Writeup-red?style=for-the-badge&logo=hand_9647256&logoColor=black%22%20style=%22border-radius:%2030px%22%20target=%22_blank"></a>
+<a href="" target="_blank"><img src="https://custom-icon-badges.herokuapp.com/badge/Writeup-red?style=for-the-badge&?logo=writeup_9647256&logoColor=black%22%20style=%22border-radius:%2030px%22%20target=%22_blank"></a>
 
 
 ## Contact
