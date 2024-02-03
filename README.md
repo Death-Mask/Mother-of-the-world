@@ -10,8 +10,6 @@
 
 ## Prerequisites
 
-Before you begin, ensure you have met the following requirements:
-
 * To deploy the Mother of the world virtual machine, you will first need to connect to TryHackMe network.
 * The VM may take about 5 minutes to completely boot.
 
