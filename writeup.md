@@ -12,7 +12,7 @@ No answer neeeded
 
 # Task 2  - Find all the flags:
 
-### * Port Scan
+### Port Scan
 It identified ports 21,22,80,111,2049 and 3306 as open. Running a more detailed scan on found open ports with `nmap` reveals their respective versions.
 ```
 nmap -p- -sS -sV -sC -A -O -T5 <machine-ip> -v 
