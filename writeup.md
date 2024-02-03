@@ -4,10 +4,10 @@
 - [Task 1  Introduction](#task-1---Introduction)
 - [Task 2  Find all the flags](#task-2---Find-all-the-flags)
 
-# Task 1   Introduction:
+# Task 1 - Introduction:
 Deploy the machine and connect to our network. 
 ```
 No answer neeeded
 ```
 
-# Task 2   Find all the flags:
+# Task 2  - Find all the flags:
