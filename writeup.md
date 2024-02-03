@@ -199,4 +199,5 @@ drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
   ===============================================================
   Finished
   ===============================================================
-```
+  ```
+* After scanning all these directory I did not find any thing important. All directory have (.html) empty file
