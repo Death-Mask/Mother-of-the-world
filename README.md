@@ -3,9 +3,13 @@
 * Step into the shoes of a red teamer in our simulated hack challenge! 
 
 
+
+
 ## Banner
 
 ![mother of the world Desktop Banner](./website-demo-image/motw_ctf.png "Desktop Banner")
+
+
 
 
 ## Prerequisites
@@ -14,10 +18,14 @@
 * The VM may take about 5 minutes to completely boot.
 
 
+
+
 ## Hint
 
 * To get anything you should test everything
 * Don't be ordinary in all your tests, but be innovative.
+
+
 
 
 ## Writeup
@@ -25,8 +33,9 @@
 ![Rss](https://custom-icon-badges.herokuapp.com/badge/Writeup-yellow?style=for-the-badge&logo=writeup&logoColor=white)
 
 
-## 
-### Contact
+
+
+## Contact
 
 <p align="left">
   <a href="https://deathmask.rf.gd" target="_blank"><img src="https://custom-icon-badges.herokuapp.com/badge/Website-white?style=for-the-badge&logo=earth_9647256&logoColor=black%22%20style=%22border-radius:%2030px%22%20target=%22_blank"></a>
@@ -36,7 +45,8 @@
 </p>
 
 
-##
-### License
+
+
+## License
 
 This program has been licensed under the MIT License. If you are a true FOSS (Free And Open Source Software) Lover, you wont customize this and redistribute this under your name
