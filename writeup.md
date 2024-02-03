@@ -113,3 +113,91 @@ drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
   ```
   echo "<machine-ip>   egypt.thm" >> /etc/hosts
   ```
+### Directory Enumeration
+* Using gobuster tool I was able to find directories on the nginx server.
+  
+```
+ gobuster dir -u <machine-ip> -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -e --no-error -t 30
+```
+```
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+http://egypt.thm/images               (Status: 301) [Size: 178] [--> http://egypt.thm/images/]
+http://egypt.thm/index                (Status: 301) [Size: 178] [--> http://egypt.thm/index/]
+http://egypt.thm/news                 (Status: 301) [Size: 178] [--> http://egypt.thm/news/]
+http://egypt.thm/about                (Status: 301) [Size: 178] [--> http://egypt.thm/about/]
+http://egypt.thm/contact              (Status: 301) [Size: 178] [--> http://egypt.thm/contact/]
+http://egypt.thm/warez                (Status: 301) [Size: 178] [--> http://egypt.thm/warez/]
+http://egypt.thm/crack                (Status: 301) [Size: 178] [--> http://egypt.thm/crack/]
+http://egypt.thm/download             (Status: 301) [Size: 178] [--> http://egypt.thm/download/]
+http://egypt.thm/2006                 (Status: 301) [Size: 178] [--> http://egypt.thm/2006/]
+http://egypt.thm/12                   (Status: 301) [Size: 178] [--> http://egypt.thm/12/]
+http://egypt.thm/full                 (Status: 301) [Size: 178] [--> http://egypt.thm/full/]
+http://egypt.thm/serial               (Status: 301) [Size: 178] [--> http://egypt.thm/serial/]
+http://egypt.thm/search               (Status: 301) [Size: 178] [--> http://egypt.thm/search/]
+http://egypt.thm/spacer               (Status: 301) [Size: 178] [--> http://egypt.thm/spacer/]
+http://egypt.thm/privacy              (Status: 301) [Size: 178] [--> http://egypt.thm/privacy/]
+http://egypt.thm/blog                 (Status: 301) [Size: 178] [--> http://egypt.thm/blog/]
+http://egypt.thm/new                  (Status: 301) [Size: 178] [--> http://egypt.thm/new/]
+http://egypt.thm/11                   (Status: 301) [Size: 178] [--> http://egypt.thm/11/]
+http://egypt.thm/logo                 (Status: 301) [Size: 178] [--> http://egypt.thm/logo/]
+http://egypt.thm/10                   (Status: 301) [Size: 178] [--> http://egypt.thm/10/]
+http://egypt.thm/cgi-bin              (Status: 301) [Size: 178] [--> http://egypt.thm/cgi-bin/]
+http://egypt.thm/faq                  (Status: 301) [Size: 178] [--> http://egypt.thm/faq/]
+http://egypt.thm/rss                  (Status: 301) [Size: 178] [--> http://egypt.thm/rss/]
+http://egypt.thm/1                    (Status: 301) [Size: 178] [--> http://egypt.thm/1/]
+http://egypt.thm/archives             (Status: 301) [Size: 178] [--> http://egypt.thm/archives/]
+http://egypt.thm/sitemap              (Status: 301) [Size: 178] [--> http://egypt.thm/sitemap/]
+http://egypt.thm/products             (Status: 301) [Size: 178] [--> http://egypt.thm/products/]
+http://egypt.thm/2005                 (Status: 301) [Size: 178] [--> http://egypt.thm/2005/]
+http://egypt.thm/default              (Status: 301) [Size: 178] [--> http://egypt.thm/default/]
+http://egypt.thm/img                  (Status: 301) [Size: 178] [--> http://egypt.thm/img/]
+http://egypt.thm/home                 (Status: 301) [Size: 178] [--> http://egypt.thm/home/]
+http://egypt.thm/links                (Status: 301) [Size: 178] [--> http://egypt.thm/links/]
+http://egypt.thm/01                   (Status: 301) [Size: 178] [--> http://egypt.thm/01/]
+http://egypt.thm/08                   (Status: 301) [Size: 178] [--> http://egypt.thm/08/]
+http://egypt.thm/07                   (Status: 301) [Size: 178] [--> http://egypt.thm/07/]
+http://egypt.thm/06                   (Status: 301) [Size: 178] [--> http://egypt.thm/06/]
+http://egypt.thm/login                (Status: 301) [Size: 178] [--> http://egypt.thm/login/]
+http://egypt.thm/articles             (Status: 301) [Size: 178] [--> http://egypt.thm/articles/]
+http://egypt.thm/support              (Status: 301) [Size: 178] [--> http://egypt.thm/support/]
+http://egypt.thm/article              (Status: 301) [Size: 178] [--> http://egypt.thm/article/]
+http://egypt.thm/keygen               (Status: 301) [Size: 178] [--> http://egypt.thm/keygen/]
+http://egypt.thm/help                 (Status: 301) [Size: 178] [--> http://egypt.thm/help/]
+http://egypt.thm/03                   (Status: 301) [Size: 178] [--> http://egypt.thm/03/]
+http://egypt.thm/04                   (Status: 301) [Size: 178] [--> http://egypt.thm/04/]
+http://egypt.thm/09                   (Status: 301) [Size: 178] [--> http://egypt.thm/09/]
+http://egypt.thm/2                    (Status: 301) [Size: 178] [--> http://egypt.thm/2/]
+http://egypt.thm/05                   (Status: 301) [Size: 178] [--> http://egypt.thm/05/]
+http://egypt.thm/events               (Status: 301) [Size: 178] [--> http://egypt.thm/events/]
+http://egypt.thm/archive              (Status: 301) [Size: 178] [--> http://egypt.thm/archive/]
+http://egypt.thm/02                   (Status: 301) [Size: 178] [--> http://egypt.thm/02/]
+http://egypt.thm/register             (Status: 301) [Size: 178] [--> http://egypt.thm/register/]
+http://egypt.thm/en                   (Status: 301) [Size: 178] [--> http://egypt.thm/en/]
+http://egypt.thm/forum                (Status: 301) [Size: 178] [--> http://egypt.thm/forum/]
+http://egypt.thm/security             (Status: 301) [Size: 178] [--> http://egypt.thm/security/]
+http://egypt.thm/3                    (Status: 301) [Size: 178] [--> http://egypt.thm/3/]
+http://egypt.thm/software             (Status: 301) [Size: 178] [--> http://egypt.thm/software/]
+http://egypt.thm/13                   (Status: 301) [Size: 178] [--> http://egypt.thm/13/]
+http://egypt.thm/downloads            (Status: 301) [Size: 178] [--> http://egypt.thm/downloads/]
+http://egypt.thm/category             (Status: 301) [Size: 178] [--> http://egypt.thm/category/]
+http://egypt.thm/4                    (Status: 301) [Size: 178] [--> http://egypt.thm/4/]
+http://egypt.thm/content              (Status: 301) [Size: 178] [--> http://egypt.thm/content/]
+http://egypt.thm/services             (Status: 301) [Size: 178] [--> http://egypt.thm/services/]
+http://egypt.thm/15                   (Status: 301) [Size: 178] [--> http://egypt.thm/15/]
+http://egypt.thm/main                 (Status: 301) [Size: 178] [--> http://egypt.thm/main/]
+http://egypt.thm/14                   (Status: 301) [Size: 178] [--> http://egypt.thm/14/]
+http://egypt.thm/templates            (Status: 301) [Size: 178] [--> http://egypt.thm/templates/]
+http://egypt.thm/press                (Status: 301) [Size: 178] [--> http://egypt.thm/press/]
+http://egypt.thm/icons                (Status: 301) [Size: 178] [--> http://egypt.thm/icons/]
+http://egypt.thm/media                (Status: 301) [Size: 178] [--> http://egypt.thm/media/]
+http://egypt.thm/assets               (Status: 301) [Size: 178] [--> http://egypt.thm/assets/]
+http://egypt.thm/password             (Status: 301) [Size: 178] [--> http://egypt.thm/password/]
+http://egypt.thm/username             (Status: 301) [Size: 178] [--> http://egypt.thm/username/]
+Progress: 220560 / 220561 (100.00%)
+===============================================================
+Finished
+===============================================================
+```
+  
