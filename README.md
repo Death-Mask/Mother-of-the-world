@@ -18,7 +18,8 @@
 
 ## Writeup
 
-![Rss](https://custom-icon-badges.herokuapp.com/badge/Writeup-yellow?style=for-the-badge&logo=writeup&logoColor=white)
+<a  href="https://deathmask.rf.gd" target="_blank"><img src="https://custom-icon-badges.herokuapp.com/badge/Writeup-yellow?style=for-the-badge&logo=writeup&logoColor=white"></a>
+
 
 ## Contact
 
