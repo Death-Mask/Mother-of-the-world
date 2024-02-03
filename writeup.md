@@ -226,18 +226,18 @@ drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
   ```
 ##
 ### Subdomain Enumeration
-[x] <details>
-        <summary>admin</summary>
+
+   - [x]  <summary>admin</summary>
+           - OhSINT<br>
+           - Crack the hash
+
+
+   - [ ] <summary>wordpress</summary>
           - OhSINT<br>
           - Crack the hash
-      </details>
-[*] <details>
-        <summary>wordpress</summary>
+
+
+   - [ ] <summary>gift</summary>
           - OhSINT<br>
           - Crack the hash
-      </details>
-[*] <details>
-        <summary>gift</summary>
-          - OhSINT<br>
-          - Crack the hash
-     </details>
+
