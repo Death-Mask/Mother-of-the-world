@@ -1,9 +1,9 @@
 # mother of the world -  tourism website template
 mother of the world is a fully responsive tourism website template, responsive for all devices, built using HTML, CSS, and JavaScript.
 
-## Demo
+## Banner
 
-![mother of the world Desktop Demo](./website-demo-image/motw_ctf.png "Desktop Demo")
+![mother of the world Desktop Banner](./website-demo-image/motw_ctf.png "Desktop Banner")
 
 ## Prerequisites
 
