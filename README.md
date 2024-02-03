@@ -16,7 +16,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## Writeup
 
-
+<a href="https://deathmask.rf.gd" target="_blank"><img src="https://custom-icon-badges.herokuapp.com/badge/let's-solve-with-us-white?style=for-the-badge&logo=earth_9647256&logoColor=black%22%20style=%22border-radius:%2030px%22%20target=%22_blank"></a>
 
 
 ## Contact
