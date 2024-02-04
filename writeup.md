@@ -3,6 +3,7 @@
 ## Table of content
 - [Task 1 - Welcome in my world](#Task-1---Welcome-in-my-world)
 - [Task 2 - Find all the flags](#Task-2---Find-all-the-flags)
+- [Task 3 - See you soon](#Task-2---See-you-soon)
 
 # Task 1 - Welcome in my world:
 Deploy the machine and connect to our network. 
@@ -332,3 +333,17 @@ What is the root flag?
   ***{************************************}
   ```
 ##
+# Task 3 - See you soon:
+  * This is my first CTF machine and I hope you enjoyed it.
+  
+  * Your opinion is important to me, so this is my post in LinkedIn:
+  
+  * Make a comment and tell me what's your opinion.
+  
+  Thanks...
+##
+
+See you soon
+```
+No answer neeeded
+```
