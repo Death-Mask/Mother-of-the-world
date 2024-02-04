@@ -231,8 +231,9 @@ drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
 - [gift](#gift)
   ##
 #### admin
-* I found a login page
-* After enumeration, I found the username and password in the JavaScript file.
-* After login, not found anything important
-  ##
+ * I found a login page
+ * After enumeration, I found the username and password in the JavaScript file.
+ * After login, not found anything important
+   ##
 #### wordpress
+ * 
