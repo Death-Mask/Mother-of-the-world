@@ -275,7 +275,7 @@ drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
    ##
 #### gift
  * I found the page had a box and when scanning the HTML code of the page I found that when click into box it redirected to a new directory.
- * this new page not have anything like the page before it
+ * This new page not have anything like the page before it
  * But I noticed that the web page was formatted as `.php`. Then I decided to scan this page by using `ffuf`
    ```
    ffuf -w /usr/share/seclists/Discovery/DNS/bitquark-subdomains-top100000.txt -u "<url_of_page>?FUZZ=id" -fw <numper_of_word>
