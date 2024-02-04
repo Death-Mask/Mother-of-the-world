@@ -83,7 +83,7 @@ No answer neeeded
   ```
 
 ##
-### FTP
+## FTP
 ```
 ftp <machine-ip>
 ```
@@ -99,7 +99,7 @@ drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
 * No thing important in this file
   
 ##
-### Web Application Enumeration
+## Web Application Enumeration
 * Going to the webpage using the given IP address redirects to `egypt.thm` domain, but fails to open a website.
   
   ```
@@ -117,7 +117,7 @@ drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
   ```
 
 ##
-### Directory Enumeration
+## Directory Enumeration
 * Using `gobuster` tool I was able to find directories on the `nginx` server.
   
   ```
@@ -206,7 +206,7 @@ drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
   ```
 * After scanning all these directory I did not find any thing important. All directory have `.html` empty file
 ##
-### Subdomain Listing
+## Subdomain Listing
 * Using `ffuf` tool, I found three subdomains for the webpage.
   
   ```
@@ -225,7 +225,7 @@ drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
   echo "gift.egypt.thm" >> /etc/hosts
   ```
 ##
-### Subdomain Enumeration
+## Subdomain Enumeration
 - [admin](#admin)
 - [wordpress](#wordpress)
 - [gift](#gift)
