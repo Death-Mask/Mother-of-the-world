@@ -3,7 +3,7 @@
 ## Table of content
 - [Task 1 - Welcome in my world](#Task-1---Welcome-in-my-world)
 - [Task 2 - Find all the flags](#Task-2---Find-all-the-flags)
-- [Task 3 - See you soon](#Task-2---See-you-soon)
+- [Task 3 - See you soon](#Task-3---See-you-soon)
 
 # Task 1 - Welcome in my world:
 Deploy the machine and connect to our network. 
