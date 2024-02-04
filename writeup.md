@@ -292,7 +292,7 @@ drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
   ```
   2049/tcp open  nfs     3-4 (RPC #100003)
   ```
-* After cat `/etc/exports` file. i found path of nfs.
+* After cat `/etc/exports` file. i found nfs path.
   ```
   /var/nfs/admin *(rw,sync,insecure,no_root_squash,no_subtree_check)
   ```
