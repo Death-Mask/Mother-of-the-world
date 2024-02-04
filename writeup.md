@@ -230,7 +230,7 @@ drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
 - [wordpress](#wordpress)
 - [gift](#gift)
   ##
-#### admin ( ! )
+#### admin
  * I found a login page.
  * After enumeration, I found the username and password in the JavaScript file.
  * After login, not found anything important.
@@ -261,3 +261,16 @@ drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
 
  * So now we should find config file in wordpress folder to get username and password to login into databases.
  * And indeed i found into this path `/var/www/wordpress.egypt.thm/wc-config.php`
+ * Now, let's login into databases by using user/password which i got by this command
+   ```
+   mysql -u <username> -h <machine_ip> -P 3306 -p
+   ```
+
+ * Now i have found `WordPress `databases and after getting into them, i are found `users` tables and after open user tables i find `mohamed` user, and i are found password hash. Now let's crack hash by using `johan`
+   ```
+   john --wordlist=/usr/share/wordlists/rockyou.txt <hash_file>
+   ```
+
+ * And indeed i have a password and  after to try login into ssh by using username and password that i got them. and indeed i have successful login
+   ##
+#### gift
