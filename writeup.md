@@ -234,8 +234,13 @@ drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
 </details>
 <details>
   <summary>[ * ] wordpress</summary>
-    - OhSINT<br>
-    - Crack the hash
+    - I found a WordPress page<br>
+    - After enumeration py using `wpscan` , I found a login WordPress page and username<br>
+        ```
+         username: Egypt
+         http://wordpress.egypt.thm/wp-login.php?redirect_to=http%3A%2F%2Fwordpress.egypt.thm%2Fwp-admin%2F&reauth=1
+        ```<br>
+    -
 </details>
 <details>
   <summary>[ * ] gift</summary>
