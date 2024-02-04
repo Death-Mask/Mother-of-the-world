@@ -4,7 +4,7 @@
 - [Task 1 - Welcome in my world](#Task-1---Welcome-in-my-world)
 - [Task 2 - Find all the flags](#Task-2---Find-all-the-flags)
 
-# Task 1 - Introduction:
+# Task 1 - Welcome in my world:
 Deploy the machine and connect to our network. 
 ```
 No answer neeeded
