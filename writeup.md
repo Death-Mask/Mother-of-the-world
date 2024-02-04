@@ -231,9 +231,33 @@ drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
 - [gift](#gift)
   ##
 #### admin
- * I found a login page
+ * I found a login page.
  * After enumeration, I found the username and password in the JavaScript file.
- * After login, not found anything important
+ * After login, not found anything important.
    ##
 #### wordpress
- * 
+ * I found a WordPress page.
+ * After enumeration by using `wpscan` , I found a login WordPress page and username.
+   ```
+   username: Egypt
+   http://wordpress.egypt.thm/wp-login.php?redirect_to=http%3A%2F%2Fwordpress.egypt.thm%2Fwp-admin%2F&reauth=1
+   ```
+   
+ * I tried to do brute force by using the `rockyou.txt` file to get a password but, not I did find any things.
+ * When When I got back to room hint I found him he said `Don't be ordinary in all your tests, but be innovative` Then I thought about making my password file, then I used`cewl`. And indeed i found password.
+   ```
+   cewl  -w password.txt http://egypt.thm
+   ```
+
+ * After that i get into `blogin` and i put `php reverse shell` And indeed i get into machine by this url.
+   ```
+   http://wordpress.egypt.thm/wp-content/plugins/akismet/index.php
+   ```
+
+ * After a long search on machines. I didn't find anything important, but I remember on port scaning I found port `3306` is open and it  this port I can get into databases and probably can find any think important.
+   ```
+   3306/tcp open  mysql   MySQL 5.5.5-10.3.39-MariaDB-0ubuntu0.20.04.2
+   ```
+
+ * So now we should find config file in wordpress folder to get username and password to login into databases.
+ * And indeed i found into this path `/var/www/wordpress.egypt.thm/wc-config.php`
