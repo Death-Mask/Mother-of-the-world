@@ -297,8 +297,8 @@ drwxr-xr-x    2 65534    65534        4096 Jan 23 21:28 ..
   /var/nfs/admin *(rw,sync,insecure,no_root_squash,no_subtree_check)
   ```
 * nfs has no_root_squash flag then let's attack nfs
-* server is (tryhackme-machine)
-* client is (your-hachine)
+* server is (`tryhackme-machine`)
+* client is (`your-machine`)
   ```
   client
   
