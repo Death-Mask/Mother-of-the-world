@@ -1,7 +1,7 @@
 ## I Encourage Everyone To Try Completing The Tasks Without Any Help. Only Use This Sheet If You're Stuck.
 
 ## Table of content
-- [Task 1 - Introduction](#Task-1---Introduction)
+- [Task 1 - Welcome in my world](#Task-1---Welcome-in-my-world)
 - [Task 2 - Find all the flags](#Task-2---Find-all-the-flags)
 
 # Task 1 - Introduction:
