@@ -4,7 +4,7 @@
 
 ## Banner
 
-![mother of the world Desktop Banner](./website-demo-image/motw_ctf.png "Desktop Banner")
+![mother of the world Desktop Banner](./website-demo-image/Motw_ctf.jpg "Desktop Banner")
 
 ## Prerequisites
 
