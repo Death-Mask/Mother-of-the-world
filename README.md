@@ -14,7 +14,9 @@
 * To get anything you should test everything.
 * Don't be ordinary in all your tests, but be innovative.
 * Be patient to achieve your goal.
-
+##
+### Link Of Room: <a  href="https://tryhackme.com/jr/m0ther0fthew0rld"></a>
+##
 ## Writeup
 
 <a  href="https://github.com/Death-Mask/Mother-of-the-world/blob/main/writeup.md" target="_blank"><img src="https://custom-icon-badges.herokuapp.com/badge/Writeup-yellow?style=for-the-badge&logo=writeup&logoColor=white"></a>
