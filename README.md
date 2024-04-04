@@ -12,9 +12,9 @@
 * The VM may take about 5 minutes to completely boot.
 
 ## Hint
-
-* To get anything you should test everything
-* Don't be ordinary in all your tests, but be innovative.
+*To get anything you should test everything.
+*Don't be ordinary in all your tests, but be innovative.
+*Be patient to achieve your goal.
 
 ## Writeup
 
