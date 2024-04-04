@@ -7,14 +7,13 @@
 ![mother of the world Desktop Banner](./website-demo-image/Motw_ctf.jpg "Desktop Banner")
 
 ## Prerequisites
-
 * To deploy the Mother of the world virtual machine, you will first need to connect to TryHackMe network.
 * The VM may take about 5 minutes to completely boot.
 
 ## Hint
-*To get anything you should test everything.
-*Don't be ordinary in all your tests, but be innovative.
-*Be patient to achieve your goal.
+* To get anything you should test everything.
+* Don't be ordinary in all your tests, but be innovative.
+* Be patient to achieve your goal.
 
 ## Writeup
 
